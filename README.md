@@ -14,7 +14,7 @@ We will mostly be using [Docker](https://www.docker.com/whatisdocker/) container
 
 [Exercise 5 - Visual Studio 2015 Docker extension](Exercise05/README.md)
 
-[Exercise 6 - Powershell](Exercise07/README.md)
+[Exercise 6 - Powershell](Exercise06/README.md)
 
 [Exercise 7 - Continuous deploy via Visual Studio Online Build](Exercise07/README.md)
 

@@ -1,7 +1,7 @@
 #Container Camp
 Welcome to the Container Camp where you will get hands-on with containers.
 
-We will mostly be using Docker containers, but also take a peek at the Windows Containers currently in preview.
+We will mostly be using [Docker](https://www.docker.com/whatisdocker/) containers, but also take a peek at the Windows Containers currently in preview.
 
 ##Exercises
 [Exercise 1 - Setup Docker host on Azure](Exercise01/README.md)

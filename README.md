@@ -13,4 +13,6 @@ We will mostly be using [Docker](https://www.docker.com/whatisdocker/) container
 [Exercise 4 - Updating an image](Exercise04/README.md)
 
 [Exercise 5 - Visual Studio 2015 Docker extension](Exercise05/README.md)
- 
+
+
+[Docker archtecture](http://docs.docker.com/engine/introduction/understanding-docker/)

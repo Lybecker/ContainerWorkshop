@@ -42,7 +42,7 @@ sudo docker -H tcp://0.0.0.0:2376 -H unix:///var/run/docker.sock -d &
 
 3. If you're already logged into an Azure account, skip to step 5. If you're not logged into an account, choose the **Add an account** button.
 
-	![][AddAzureAccount.png]
+	![](AddAzureAccount.png)
 
 4. In the **Sign in to Visual Studio** dialog box, enter the email account for your Azure subscription and then choose the **Continue** button.
 
@@ -50,5 +50,11 @@ sudo docker -H tcp://0.0.0.0:2376 -H unix:///var/run/docker.sock -d &
 
 	![](ChooseExistingVM.png)
 
-	Once you have finished the configuration of the "Publish to Docker" you can publish your web app, and follow along in the build output.
+6. If your Docker daemon is not secure, then remove the `--tlsverify`
+
+	![](RemoveAuthOptions.png) 
+
+7. Test the connection to the Docker daemon by pressing **Validate connection**.
+
+8. Press **Publish**, and follow along in the build output.
 

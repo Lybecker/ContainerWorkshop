@@ -26,7 +26,7 @@ sudo docker -H tcp://0.0.0.0:2376 -H unix:///var/run/docker.sock -d &
 
 1. Since the web app will be hosted/run in Docker, clear the **Host in the cloud** checkbox if it's selected and then choose the **OK** button.
 
-  ![][CreateAspNet5WebApp.png]
+  ![](CreateAspNet5WebApp.png)
 
   This is the point where you'd typically add code to the web app to make it do something useful, but for this example, let's just leave it at its default settings. (Note that you can also choose to use existing ASP.NET 5 web apps.)
 
@@ -38,7 +38,7 @@ sudo docker -H tcp://0.0.0.0:2376 -H unix:///var/run/docker.sock -d &
 
 2. In the **Select a publish target** section of the **Publish Web** dialog box, choose the **Docker Containers** button.
 
-	![](TargetDocker.png)
+	![](TargetDockerContainer.png)
 
 3. If you're already logged into an Azure account, skip to step 5. If you're not logged into an account, choose the **Add an account** button.
 

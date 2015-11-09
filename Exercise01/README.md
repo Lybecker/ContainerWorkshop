@@ -10,12 +10,12 @@ During these exercises we will use the Docker image from the Azure Marketplace.
 1. Login to the [Azure Preview portal](https://portal.azure.com)
 2. Create a new Marketplace image 
 
-	![](CreateDockerHost1.png)
+	![](selectcreate.png)
  
 3. Search for 'Docker' and select 'Docker on Ubuntu Server'
  
-	![](createdockerhost2.png)
+	![](searchdocker.png)
  
 4. Fill in the VM information
  
-	![](createdockerhost3.png)
+	![](entervminfo.png)

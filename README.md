@@ -22,4 +22,6 @@ We will mostly be using [Docker](https://www.docker.com/whatisdocker/) container
 
 [Exercise 9 - Docker Hub](Exercise09/README.md)
 
+[Exercise 10 - Setting up swarm and deploying with compose](Exercise10/README.md)
+
 [Docker archtecture](http://docs.docker.com/engine/introduction/understanding-docker/)

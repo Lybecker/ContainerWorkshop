@@ -4,6 +4,8 @@ Now that we have a virtual machine running with Docker on Azure we can test it o
 
 1. Open SSH tunnel to your Docker host 
 
+>You'll need a SSH client like [putty](http://www.putty.org/).
+
 2. Type the following command in the terminal: 
 
 	```

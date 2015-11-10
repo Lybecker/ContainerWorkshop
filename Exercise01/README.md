@@ -10,12 +10,14 @@ During these exercises we will use the Docker image from the Azure Marketplace.
 1. Login to the [Azure Preview portal](https://portal.azure.com)
 2. Create a new Marketplace image 
 
-![](SelectCreateMarketplaceVm.png)
+	![](SelectCreateMarketplaceVm.png)
  
 3. Search for 'Docker' and select 'Docker on Ubuntu Server'
  
-![](SearchForDocker.png)
+	![](SearchForDocker.png)
  
 4. Fill in the VM information
  
-![](EnterVmSettings.png)
+	![](EnterVmSettings.png)
+
+>The Docker VM image automatically opens for port 22, so it can be accessed via SSH. You can open other ports via the [Azure portal]((https://portal.azure.com)). Follow the [ppen Azure endpoint guide](OpenAzureEndpoint/README.md). 

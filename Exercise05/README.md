@@ -19,6 +19,8 @@ sudo docker -H tcp://0.0.0.0:2376 -H unix:///var/run/docker.sock -d &
 ```
 >This is *not* the recommended approach as anybody can connect to your Docker daemon and manage your containers. See the [protect the Docker daemon socket](http://docs.docker.com/engine/articles/https/). 
 
+>The Docker host is behind a firewall, therefor you need to enable port-forwarding for port 2376 in this case. See the [open Azure endpoint guide](../Exercise01/OpenAzureEndpoint/README.md).
+
 ## Create an ASP.NET 5 web application project
 1. Create a new ASP.NET web application project. On the main menu, choose **File**, **New Project**. Under **C#**, **Web**, choose **ASP.NET Web Application**.
 
@@ -58,3 +60,6 @@ sudo docker -H tcp://0.0.0.0:2376 -H unix:///var/run/docker.sock -d &
 
 8. Press **Publish**, and follow along in the build output.
 
+9. The website will available on port 80 (default), so you need to add port-forwarding. See the [open Azure endpoint guide](../Exercise01/OpenAzureEndpoint/README.md).
+
+	Then you will be able to navigate to the site in your browser.

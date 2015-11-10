@@ -18,4 +18,8 @@ We will mostly be using [Docker](https://www.docker.com/whatisdocker/) container
 
 [Exercise 7 - Continuous deploy via Visual Studio Online Build](Exercise07/README.md)
 
+[Exercise 8 - Deploying containers with Dockerfile](Exercise08/README.md)
+
+[Exercise 9 - Docker Hub](Exercise09/README.md)
+
 [Docker archtecture](http://docs.docker.com/engine/introduction/understanding-docker/)

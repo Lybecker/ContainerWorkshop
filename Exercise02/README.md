@@ -76,13 +76,16 @@ Now that we have a virtual machine running with Docker on Azure we can test it o
 7. Let's create a long running container and assign it a name
 	```
 	# Start a long running process
-	$ docker run -d -name=my-ubuntu ubuntu /bin/sh -c "while true; do echo Hello world; sleep 1; done"
+	$ docker run -d ubuntu /bin/sh -c "while true; do echo Hello world; sleep 1; done"
+	
+	# List all the containers
+	$ docker ps -a
 	
 	# Collect the output of the job so far
-	$ docker logs my-ubuntu
+	$ docker logs <id>
 	
 	# Kill the job
-	$ docker kill my-ubuntu
+	$ docker kill <id>
 	```	
 8. Inspecting our container
 	Lastly, we can take a low-level dive into our Docker container using the docker inspect command. It returns a JSON hash of useful configuration and status information about Docker containers.

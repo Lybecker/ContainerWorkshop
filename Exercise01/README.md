@@ -20,4 +20,4 @@ During these exercises we will use the Docker image from the Azure Marketplace.
  
 	![](EnterVmSettings.png)
 
->The Docker VM image automatically opens for port 22, so it can be accessed via SSH. You can open other ports via the [Azure portal]((https://portal.azure.com)). Follow the [ppen Azure endpoint guide](OpenAzureEndpoint/README.md). 
+>The Docker VM image automatically opens for port 22, so it can be accessed via SSH. You can open other ports via the [Azure portal]((https://portal.azure.com)). Follow the [open Azure endpoint guide](OpenAzureEndpoint/README.md). 

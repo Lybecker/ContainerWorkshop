@@ -15,7 +15,7 @@ The Docker daemon allow you to use the Docker CLI tools from another machine.
 By default, the docker daemon will use the unix socket `unix:///var/run/docker.sock` (you can check this is the case for you by doing a `sudo netstat -tunlp` and note that there is no docker daemon process listening on any ports). 
 To start the docker daemon with a TCP socket that anybody can connect to, use the -H option
 ```
-sudo docker -H tcp://0.0.0.0:2376 -H unix:///var/run/docker.sock -d &
+sudo docker -H tcp://0.0.0.0:2376 -d &
 ```
 >This is *not* the recommended approach as anybody can connect to your Docker daemon and manage your containers. See the [protect the Docker daemon socket](http://docs.docker.com/engine/articles/https/). 
 
@@ -61,5 +61,6 @@ sudo docker -H tcp://0.0.0.0:2376 -H unix:///var/run/docker.sock -d &
 8. Press **Publish**, and follow along in the build output.
 
 9. The website will available on port 80 (default), so you need to add port-forwarding. See the [open Azure endpoint guide](../Exercise01/OpenAzureEndpoint/README.md).
+	>Remember to start your ASP.NET 5 Docker container!
 
 	Then you will be able to navigate to the site in your browser.

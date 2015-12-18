@@ -25,3 +25,5 @@ We will mostly be using [Docker](https://www.docker.com/whatisdocker/) container
 [Exercise 10 - Setting up swarm and deploying with compose](Exercise10/README.md)
 
 [Docker archtecture](http://docs.docker.com/engine/introduction/understanding-docker/)
+
+[Presentation/Slides](Docker Containers and Azure Workshop.pptx)

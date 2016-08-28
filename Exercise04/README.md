@@ -24,8 +24,8 @@ We can then commit a copy of this container to an image using
 the `docker commit` command.
 
 ```
-$ docker commit -m "Added my files" -a "Anders Lybecker" \
-0b2616b0e5a8 ouruser/aspnet:v2
+$ docker commit -m "Added my files" -a "Anders Lybecker" 0b2616b0e5a8 ouruser/aspnet:v2
+
 4f177bd27a9ff0f6dc2a830403925b5360bfe0b93d476f7fc3231110e7f71b1c
 ```
 
